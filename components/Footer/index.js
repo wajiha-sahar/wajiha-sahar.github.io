@@ -1,5 +1,5 @@
 import { Container } from ".."
-import { FaTwitter, FaGithub, FaFacebook, FaVoicemail } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaFacebook} from 'react-icons/fa'
 import { AiFillMail } from "react-icons/ai"
 
 import { socials } from "../../data/socials.json"
@@ -21,13 +21,13 @@ function Footer() {
           </div>
           <div className="right">
             <div className="socials flex flex-row items-center justify-center">
-              {socials["twitter"] !== "" && <SocialLink url={socials["twitter"]} children={<FaTwitter />} />}
+              {socials["twitter"] && <SocialLink url={socials["twitter"]} children={<FaLinkedin />} />}
 
-              {socials["github"] !== "" && <SocialLink url={socials["github"]} children={<FaGithub />} />}
+              {socials["github"] && <SocialLink url={socials["github"]} children={<FaGithub />} />}
 
-              {socials["email"] !== "" && <SocialLink url={socials["email"]} children={<AiFillMail />} />}
+              {socials["email"] && <SocialLink url={socials["email"]} children={<AiFillMail />} />}
 
-              {socials["facebook"] !== "" && <SocialLink url={socials["facebook"]} children={<FaFacebook />} />}
+              {socials["facebook"] && <SocialLink url={socials["facebook"]} children={<FaFacebook />} />}
             </div>
           </div>
 
@@ -42,7 +42,7 @@ function Footer() {
 export default Footer
 
 function SocialLink({ url, children }) {
-
+debugger;
   return (
     <a href={url.includes("@") ? `mailto:${url}`: url} target="_blank" className=" no-underline text-white-100 decoration-none hover:text-white-100 mr-4 ">
       {children}

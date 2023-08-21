@@ -1,18 +1,25 @@
 {
     "projects":[
         {
-            "title": "Some dummy title",
-            "imageUrl": "",
-            "project_url": "",
-            "description": "some basi project description",
-            "tags": [ "react", "postgresql", "nodejs" ]
+            "title": "Air Quality Index Prediction using Machine Learning Algorithms",
+            "imageUrl": "https://drive.google.com/file/d/1hJ1pPjnyzcqjPrn9doutXrGurXDSxLOw/view?usp=sharing",
+            "project_url": "https://github.com/wajiha-sahar/Air-Quality-Index-Prediction-using-Regression/blob/main/AQI.ipynb",
+            "description": "An Indoor Air Quality Monitoring and Control System based on IOT architecture which predicts Air Quality Index based on concentrations of pollutants using Regression Algorithm. Based on Predicted AQI ventilation unit or airpurifier or alert buzzer is turned on",
+            "tags": [ "python", "tensorflow", "keras" ]
         },
         {
-            "title": "Some dummy title",
-            "imageUrl": "",
-            "project_url": "",
-            "description": "some basi project description",
-            "tags": [ "react", "postgresql", "nodejs" ]
+            "title": "AI Chat Bot",
+            "imageUrl": "https://kriyatec.com/wp-content/uploads/2020/05/chatbot2.jpeg",
+            "project_url": "https://github.com/wajiha-sahar/AI--Chatbot",
+            "description": "A chatbot that knows everything about the dataset you provide it. For this build, we used The Great Gatsby as our dataset. A chatbot research assistant that can answer all your questions about the book.",
+            "tags": [ "python", "flask", "embesddings" ]
+        },
+        {
+            "title": "RSA Algorithm",
+            "imageUrl": "https://user-images.githubusercontent.com/70335592/113505622-ba41f200-9548-11eb-8b52-5ab2ed3806f8.png",
+            "project_url": "https://github.com/wajiha-sahar/RSA-Algorithm/blob/main/RSA",
+            "description": "Public Key encryption hard algorithm implemented using C++",
+            "tags": [ "C++"]
         }
     ]
 }
